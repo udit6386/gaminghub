@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+  
+  body {
+    background: #3253a0;
+    color: #e5e7eb;
+  }
+  
+  header {
+    background: linear-gradient(90deg, #2563eb, #1e40af);
+    padding: 20px;
+    text-align: center;  
+  }
+  .bgimg{
+      background-image: url(images/bg.jpg);
+      background-size: cover;      /* fills the header */
+      background-position: center; /* centers image */
+      background-repeat: no-repeat;
+      height: 200px;               /* adjust as needed */
+  }
+  .home-btn {
+    margin-right: 1050px;   /* 👈 pushes everything else to the right */
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  .link{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: larger;
+    margin-top: 200px;
+    }
+  header h1 {
+    font-size: 28px;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 30px auto;
+    padding: 0 20px;
+  }
+  
+  .search-box {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 25px;
+  }
+  
+  .search-box input {
+    width: 100%;
+    max-width: 500px;
+    padding: 12px;
+    border-radius: 8px;
+    border: none;
+    font-size: 16px;
+  }
+  
+  .games-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: 20px;
+  }
+  
+  .game-card {
+    background: #020617;
+    border-radius: 14px;
+    overflow: hidden;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.4);
+    transition: transform 0.2s;
+    align-items: center;
+  }
+  
+  .game-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .game-card img {
+    width: 100%;
+    height: 140px;
+    object-fit: cover;
+  }
+  
+  .game-info {
+    padding: 15px;
+  }
+  
+  .game-info h3 {
+    font-size: 18px;
+    margin-bottom: 8px;
+  }
+  
+  .game-info p {
+    font-size: 14px;
+    opacity: 0.85;
+    margin-bottom: 12px;
+  }
+  
+  .download-btn {
+    display: block;
+    text-align: center;
+    background: #22c55e;
+    color: #022c22;
+    padding: 10px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .download-btn:hover {
+    background: #16a34a;
+  }
+  
+  footer {
+    margin-top: 50px;
+    padding: 20px;
+    text-align: center;
+    font-size: 14px;
+    opacity: 0.7;
+  }
+  
